@@ -1,18 +1,4 @@
-The code that is provided implements a basic image slider feature using a React component called ImageSliderExample. The code is described as follows:
-
-Initialization of the State:
-
-
-uses the useState hook to initialize a state variable slide that will track the index of the picture that is currently displayed.
-NextSlider Features:
-
-defines the NextSlider function, which modifies the slide state to show the SliderData array's subsequent image.
-It loops back to the first image if it is the last image.
-Prior Slider Operation:
-
-specifies the PrevSlider function, which modifies the slide state to show the prior picture in the SliderData array.
-It goes back to the previous image if it is the current one.
-Animate:
-
-based on the slide state, shows the current image.
-Sculptures
+Packages
+1.React: This is the core library for building the user interface. The useState and useEffect hooks are used to manage state and side effects, respectively.
+2.react-multi-date-picker: This is a date picker component used for selecting dates. It supports multiple date formats and provides an easy-to-use interface for selecting dates.
+3.bootstrap: This is a popular CSS framework used to style the UI elements. In your code, it is used for table styling and alignment.
